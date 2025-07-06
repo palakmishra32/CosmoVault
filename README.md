@@ -50,12 +50,12 @@ A beautiful steganography tool with an animated galaxy background for securely h
 **🛠️ Installation**
 
 1. Clone the repository
-    - git clone https://github.com/yourusername/stellarcrypt.git
+    - git clone https://github.com/palakmishra32/CosmoVault
 2. Install dependencies
     - npm install
 3. Start the development server
     - npm start
-O4. pen your browser
+4. Open your browser
     - Navigate to http://localhost:3000
   
 
