@@ -1,68 +1,70 @@
-**# CosmoVault**
+# Getting Started with Create React App
 
-A beautiful steganography tool with an animated galaxy background for securely hiding and revealing messages within images.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**✨ Features**
+## Available Scripts
 
-🔐 Secure Steganography: Hide secret messages within PNG images
-🎨 Animated Galaxy Background: Stunning space-themed UI with twinkling stars, shooting stars, and nebulas
-🌓 Dark/Light Mode: Toggle between cosmic themes
-🔑 Encryption: Password-protected message encoding/decoding
-📱 Responsive Design: Works on desktop and mobile devices
-🌟 Multiple Star Types: Twinkling, sparkling, shining, and fast-twinkling stars
-🌠 Shooting Stars: Realistic comet effects with glowing tails
+In the project directory, you can run:
 
+### `npm start`
 
-**## 🧱 Tech Stack**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-| Layer      | Tech Used              |
-|------------|------------------------|
-| Frontend   | React (Vite)           |
-| Backend    | Flask + OpenCV         |
-| Crypto     | AES-CBC + SHA256       |
-| Styling    | CSS-in-JS + animations |
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-🧠 How It Works
-**🔐 Encoding Flow**
-1. User uploads a PNG image.
-2. Enters the message + a key (used for AES encryption).
-3. Backend encrypts message using:
-   - AES-CBC with SHA-256 derived key
-   - PKCS7 padding
-   - Appends a ::HASH::[sha256] for integrity verification
-4. Encrypted bytes are embedded in the image’s pixel LSB.
-5. Modified image is returned for download.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**🔎 Decoding Flow**
-1. User uploads the encoded PNG and provides the original key.
-2. Backend:
-   - Extracts bytes from pixels
-   - Decrypts using AES-CBC with same key
-   - Verifies SHA-256 hash against message
-3. If integrity is verified ✅ → returns the message.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Installation:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository
-       git clone https://github.com/palakmishra32/CosmoVault.git
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Install dependencies
-       npm install
+### `npm run eject`
 
-3. Start the development server
-       npm start
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-4. Open your browser
-       Navigate to http://localhost:3000
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**🏗️ Backend Setup**
-This project requires a Python Flask backend for image processing:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. Install Python dependencies
-        pip install flask pillow cryptography flask-cors
-2. Create backend server (app.py)
-3. Run the backend
-        python app.py
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
