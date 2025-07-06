@@ -4,13 +4,13 @@ A beautiful steganography tool with an animated galaxy background for securely h
 
 **✨ Features**
 
-🔐 Secure Steganography: Hide secret messages within images
-🎨 Animated Galaxy Background: Stunning space-themed UI with twinkling stars, shooting stars, and nebulas
-🌓 Dark/Light Mode: Toggle between cosmic themes
-🔑 Encryption: Password-protected message encoding/decoding
-📱 Responsive Design: Works on desktop and mobile devices
-🌟 Multiple Star Types: Twinkling, sparkling, shining, and fast-twinkling stars
-🌠 Shooting Stars: Realistic comet effects with glowing tails
+🔐 Secure Steganography: Hide secret messages within images.
+🎨 Animated Galaxy Background: Stunning space-themed UI with twinkling stars, shooting stars, and nebulas.
+🌓 Dark/Light Mode: Toggle between cosmic themes.
+🔑 Encryption: Password-protected message encoding/decoding.
+📱 Responsive Design: Works on desktop and mobile devices.
+🌟 Multiple Star Types: Twinkling, sparkling, shining, and fast-twinkling stars.
+🌠 Shooting Stars: Realistic comet effects with glowing tails.
 
 
 **## 🧱 Tech Stack**
