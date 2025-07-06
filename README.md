@@ -46,8 +46,7 @@ A beautiful steganography tool with an animated galaxy background for securely h
 **Installation:**
 
 1. Clone the repository
-       git clone https://github.com/yourusername/stellarcrypt.git
-       cd stellarcrypt
+       git clone https://github.com/palakmishra32/CosmoVault.git
 
 2. Install dependencies
        npm install
