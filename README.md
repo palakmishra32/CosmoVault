@@ -17,11 +17,10 @@ A beautiful steganography tool with an animated galaxy background for securely h
 
 | Layer      | Tech Used              |
 |------------|------------------------|
-| Frontend   | React (Vite)           |
+| Frontend   | React                  |
 | Backend    | Flask + OpenCV         |
 | Crypto     | AES-CBC + SHA256       |
-| Styling    | CSS-in-JS + animations |
-| Deployment | Vercel (frontend), Render (backend) |
+| Styling    | CSS  + animations      |
 
 
 **🧠 How It Works**
